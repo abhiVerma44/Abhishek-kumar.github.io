@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f329279bde.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
@@ -35,11 +36,225 @@
                     <img src="images/user.png">
                 </div>
                 <div class="about-col-2">
-                    <h1>About Me</h1>
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Blanditiis labore, voluptas est, quis culpa exercitationem quibusdam ad,
+                        ut iure odit voluptate aliquam perferendis quasi debitis.
+                         Distinctio neque perspiciatis magnam tenetur.</p>
+                         <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                            <p class="tab-links"onclick="opentab('experince')" > Experince</p>
+                            <p class="tab-links"onclick="opentab('education')" > Education</p>
+
+                         </div>
+                         <div class="tab-contents Active-tab " id="skills">
+                            <ul>
+                                <li><span>UI/Ux</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS apps</li>
+
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experince">
+                            <ul>
+                                <li><span>UI/Ux</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS apps</li>
+
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>UI/Ux</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS apps</li>
+
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS apps</li>
+
+                            </ul>
+                         </div>
                 </div>
             </div>
         </div>
     </div>
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Quisquam labore distinctio neque consequatur quia et
+                      tempora ipsam numquam quis doloremque sapiente sunt, 
+                    facere quaerat est aspernatur, nulla totam hic ea?</p>
+            </div>
+            <div>
+                <i class="fas fa-paint-brush"></i>
+                <h2>UI/UX Designing</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Quisquam labore distinctio neque consequatur quia et
+                      tempora ipsam numquam quis doloremque sapiente sunt, 
+                    facere quaerat est aspernatur, nulla totam hic ea?</p>
+            </div>
+            <div>
+                <i class="fas fa-chart-line"></i>
+                <h2>App Designing</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Quisquam labore distinctio neque consequatur quia et
+                      tempora ipsam numquam quis doloremque sapiente sunt, 
+                    facere quaerat est aspernatur, nulla totam hic ea?</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- portfolieo -->
+<div id="portfolieo">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>
+                       Social Media App
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, illo veniam labore error similique enim dicta. Sapiente, quaerat. Nemo, quod cumque itaque explicabo voluptate dolore iste incidunt?</p>
+                     <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>
+                       Music Media App
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, illo veniam labore error similique enim dicta. Sapiente, quaerat. Nemo, quod cumque itaque explicabo voluptate dolore iste incidunt?</p>
+                     <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>
+                       online shoping App
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, illo veniam labore error similique enim dicta. Sapiente, quaerat. Nemo, quod cumque itaque explicabo voluptate dolore iste incidunt?</p>
+                     <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- MY SKILLS -->
+<div id="skills">
+    <div class="skill-header">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skill-list">
+            <div class="skill-icon">
+                <img src="https://saurabhjha-portfolio.netlify.app/java.svg" alt="">
+
+            </div>
+            <div class="skill-icon">
+                <img src="https://saurabhjha-portfolio.netlify.app/javascript.svg" alt="">
+
+            </div>
+            <div class="skill-icon">
+                <img src="https://saurabhjha-portfolio.netlify.app/spring-logo-9146a4d3298760c2e7e49595184e1975.svg" alt="">
+
+            </div>
+            <div class="skill-icon">
+                <img src="https://saurabhjha-portfolio.netlify.app/amazon-web-services.svg" alt="">
+
+            </div>
+            <div class="skill-icon">
+                <img src="https://saurabhjha-portfolio.netlify.app/mysql-logo.svg" alt="">
+
+            </div> 
+            <div class="skill-icon">
+                <img src="https://saurabhjha-portfolio.netlify.app/hibernatesvg.svg" alt="">
+
+            </div>
+            <div class="skill-icon">
+                <img src="https://saurabhjha-portfolio.netlify.app/git.svg" alt="">
+
+            </div>
+            <div class="skill-icon">
+                <img src="https://saurabhjha-portfolio.netlify.app/html.svg" alt="">
+
+            </div>
+           
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Abhishek@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6299306548</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/aBHI05112002Hacked404"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abhishek-kumar-771b9622b/?midToken=AQGGPq-5LKrLLQ&midSig=067Gg5pinO4Gs1&trk=eml-email_network_conversations_01-header-33-profile&trkEmail=eml-email_network_conversations_01-header-33-profile-null-fzywud%7El88tbumi%7Er0-null-neptune%2Fprofile%7Evanity%2Eview"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2" > Download CV </a>
+
+            </div>
+ 
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Abhishek Kumar" required>
+                    <input type="text" name="email" placeholder="Abhishek@gmail.com" required>
+                    <textarea name="Massage"  rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2" > Submit</button>
+                </form>
+
+            </div>
+
+
+        </div>
+        
+           
+        
+    </div>
+    <div class="copyright">
+        <p> 2022 All rights reserved.</p>
+
+    </div>
+</div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("Active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("Active-tab");
+        }
+    </script>
   
    
     
