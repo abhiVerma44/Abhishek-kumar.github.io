@@ -187,7 +187,7 @@ nav ul li a:hover::after{
 }
 .worklist{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(450px));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -238,6 +238,22 @@ nav ul li a:hover::after{
     border-radius: 50%;
     text-align: center;
 }
+svg{
+ width: 40px;
+ height: 40px;
+ color: #fff;
+
+}
+
+.tech-icons{
+border: 2.5px solid #ff004f;
+width: 60px;
+    border-radius: 10%;
+}
+.tech-icons:hover{
+background-color: #080808;
+}
+
 .work:hover img{
     transform: scale(1.1);
 }
@@ -398,22 +414,24 @@ nav .fa-solid{
 
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:650px){
     #header{
         background-image: url(images/phone-background.png);
 
+        display: block;
 
     }
     .header-text{
-        margin-top:86% ;
+        margin-top:40% ;
         font-size: 16px;
         text-align: center;
+              
 
     }
     .header-text h1{
         font-size: 30px;
-      text-align: center;
-        
+        text-align: center;
+       
     }
  
     nav .fa-solid{
@@ -483,4 +501,26 @@ nav .fa-solid{
             margin: auto;
             
     }
+    svg{
+        width: 20px;
+        height: 20px;
+        color: #fff;
+       
+       }
+       
+       .tech-icons{
+       border: 2.5px solid #ff004f;
+       width: 4px;
+           border-radius: 10%;
+       }
+       .layer{
+        display: flex;
+
+       }
+       
+    
 }
+
+
+    
+ 
