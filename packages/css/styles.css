@@ -1262,7 +1262,8 @@ img {
       column-gap: 5rem;
     }
     .about__img {
-      width: 350px;
+      width: 300px;
+      height: 370px;
     }
     .about__description {
       text-align: initial;
